@@ -52,6 +52,9 @@
          <!-- 個人情報カード -->
          <section class="wrapper">
             <div class="food-container" style="display: none">
+                <div class="sentence">
+                    <p class="question1">質問１：パーソナルデータを入力して</p>
+                </div>
                 <div class="column1">
                     <div class="sex">
                         <h1 id="sex">性別</h1>
@@ -63,7 +66,7 @@
                             <img src="../static/female.png" alt="女">
                         </div>
                     </div>
-                    </div>s
+                    </div>
                     <div class="age">
                         <h1>年齢</h1>
                         <div class="age0">
@@ -98,7 +101,7 @@
         <script>
         $(function() {
             $(".male").click(function() {
-                $(".sex").addClass("clickMale") ;
+                $(".sex").toggleClass("clickMale") ;
             });
         });
         </script>
@@ -113,7 +116,7 @@
         <script>
         $(function() {
             $(".female").click(function() {
-                $(".sex").addClass("clickFemale");
+                $(".sex").toggeleClass("clickFemale");
             });
         });
         </script>
@@ -127,7 +130,7 @@
         <script>
         $(function() {
             $(".age0").click(function() {
-                $(".age").addClass("clickAge0") ;
+                $(".age").toggleClass("clickAge0") ;
             });
         });
         </script>
@@ -141,14 +144,14 @@
         <script>
         $(function() {
             $(".height0").click(function() {
-                $(".height").addClass("clickHeight0") ;
+                $(".height").toggleClass("clickHeight0") ;
             });
         });
         </script>
         <script>
         $(function() {
             $(".weight0").click(function() {
-                $(".weight").addClass("clickWeight0") ;
+                $(".weight").toggleClass("clickWeight0") ;
             });
         });
         </script>
@@ -157,14 +160,12 @@
             $(".food-container").fadeIn(3500);
         });
         </script>
-        <script>
+        // <script>
         // $(function() {
         //     $(".sex").click(function() {
         //         $("#sex").replaceWith("<h1>性別</h1>") ;
         //     });
         // });
-        </script>
-
-
+        // </script>
         </body>
     </html>
