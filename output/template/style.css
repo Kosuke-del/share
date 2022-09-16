@@ -143,12 +143,12 @@
 }
 
 .food-container {
-	/* background-color: lightgreen; */
 	margin: 10px;
 	border-radius: 20px;
     width: 600px;
     height: 600px;
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #FFD400;
+    text-align: center;
+    /* box-shadow: 3.5px 3.5px 3.5px 3.5px #FFD400; */
 }
 
 .column1 {

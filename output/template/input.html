@@ -5,6 +5,8 @@
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>冷凍食品</title>
         <link rel="stylesheet" href="style.css">
+        <!-- <script src="../static/test.js" defer></script> -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
     </head>
         <body>
          <!-- startヘッダー -->
@@ -49,16 +51,16 @@
          <!-- endヘッダー -->
          <!-- 個人情報カード -->
          <section class="wrapper">
-            <div class="food-container">
+            <div class="food-container" style="display: none">
                 <div class="column1">
                     <div class="sex">
-                        <h1>性別</h1>
+                        <h1 id="sex">性別</h1>
                         <div class="choice">
                         <div class="male">
-                            <img src="static/male.png" alt="男">
+                            <img src="../static/male.png" alt="男">
                         </div>
                         <div class="female">
-                            <img src="static/female.png" alt="女">
+                            <img src="../static/female.png" alt="女">
                         </div>
                     </div>
                     </div>
@@ -150,5 +152,19 @@
             });
         });
         </script>
+        <script>
+          $(document).ready(function(){
+            $(".food-container").fadeIn(3500);
+        });
+        </script>
+        <script>
+        // $(function() {
+        //     $(".sex").click(function() {
+        //         $("#sex").replaceWith("<h1>性別</h1>") ;
+        //     });
+        // });
+        </script>
+
+
         </body>
     </html>
