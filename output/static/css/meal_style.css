@@ -686,6 +686,7 @@ img {
 }
 /* 検索ボタンについての css */
 
+<<<<<<< HEAD
 .search_Button {
     display: flex;
     align-items: center;
@@ -699,6 +700,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+=======
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> 3981dc22e240e5388ffe9946f42cb6baec6202a1
     text-decoration: none;
     border-radius: 20px;
     width: 150px;
@@ -711,6 +720,7 @@ img {
     color: black;
     font-size: 1.6em;
     Letter-spacing: 1px;
+<<<<<<< HEAD
 } */
 
 /* ボタンがクリックされた時のcss */
@@ -782,5 +792,77 @@ img {
     text-transform: uppercase;
     Letter-spacing: 1px;
     transition: 0.3s;
+=======
 }
 
+/ ボタンがクリックされた時のcss /
+.button_clicked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 80px;
+    box-shadow: 0px 0px 28px 3px #ededed;
+    transition: 1s;
+    box-shadow: 0 0 3px var(--clr),
+    0 0 15px var(--clr);
+    overflow: hidden;
+    position: relative;
+>>>>>>> 3981dc22e240e5388ffe9946f42cb6baec6202a1
+}
+
+.button_clicked:hover {
+    background: var(--clr);
+}
+
+.button_clicked:hover::before {
+    width: 120%;
+
+
+}
+
+.button_clicked::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 400px;
+    background: var(--clr);
+    transition: 1s;
+    animation: animate 2s linear infinite;
+    animation-delay: calc(0.33s var(--i));
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.button_clicked::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.button_clicked:hover::after {
+    background: var(--clr);
+}
+
+.button_clicked span {
+    font-family: fantasy;
+    color: black;
+    position: relative;
+    z-index: 1;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    Letter-spacing: 1px;
+    transition: 0.3s;
+}
