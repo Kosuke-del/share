@@ -50,7 +50,7 @@
          <!-- endヘッダー -->
          <!-- 食事検索カード -->
          <section class="wrapper">
-            <div class="food-container">
+            <div class="food-container" style="display:none">
                 <div class="sentence">
                     <p class="question4">質問４：食べたものを入力して</p>
                 </div>
@@ -111,9 +111,9 @@
             });
             </script>
             <script>
-                $(".meal1, meal2, .meal3").click(function() {
-                    $("button").toggleClass("button_clicked") ;
-                });
+                $(document).ready(function(){
+                  $(".food-container").fadeIn(3500);
+            });
             </script>
         </body>
     </html>
