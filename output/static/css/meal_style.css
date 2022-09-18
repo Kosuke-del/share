@@ -134,6 +134,22 @@
 /* header終了 */
 
 /* カード内容についてのcss */
+/* backボタンについてのcss */
+.back {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -62px;
+    left: -150px;
+}
+/* nextボタンについてのcss */
+.next {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -62px;
+}
+
 .wrapper {
 	display: flex;
 	/* background-color: skyblue; */
@@ -614,6 +630,13 @@ img {
     align-items: center;
     margin-top: 10px;
 }
+.column_Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin-left: 22px;
+}
 
 .meal1 {
     border-radius: 20px;
@@ -686,7 +709,6 @@ img {
 }
 /* 検索ボタンについての css */
 
-<<<<<<< HEAD
 .search_Button {
     display: flex;
     align-items: center;
@@ -700,14 +722,12 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-=======
 
 
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
->>>>>>> 3981dc22e240e5388ffe9946f42cb6baec6202a1
     text-decoration: none;
     border-radius: 20px;
     width: 150px;
@@ -720,7 +740,6 @@ img {
     color: black;
     font-size: 1.6em;
     Letter-spacing: 1px;
-<<<<<<< HEAD
 } */
 
 /* ボタンがクリックされた時のcss */
@@ -792,10 +811,9 @@ img {
     text-transform: uppercase;
     Letter-spacing: 1px;
     transition: 0.3s;
-=======
 }
 
-/ ボタンがクリックされた時のcss /
+/* / ボタンがクリックされた時のcss / */
 .button_clicked {
     display: flex;
     align-items: center;
@@ -810,7 +828,6 @@ img {
     0 0 15px var(--clr);
     overflow: hidden;
     position: relative;
->>>>>>> 3981dc22e240e5388ffe9946f42cb6baec6202a1
 }
 
 .button_clicked:hover {
