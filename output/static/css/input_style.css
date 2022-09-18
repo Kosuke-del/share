@@ -172,7 +172,7 @@
     border-top-right-radius: 20px;
     width: 100%;
     height: 270px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -251,10 +251,15 @@ p {
     border: none;
     width: 72px;
     height: 40px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-family: "fantasy";
+    font-size: 25px;
     font-weight: bold;
-    box-shadow: 0px 0px 28px 3px #ededed;
+    outline: none;
 }
 
 
@@ -297,10 +302,12 @@ p {
     border: none;
     width: 72px;
     height: 40px;
+    margin-left: 15px;
     text-align: center;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-size: 20px;
+    font-family: "fantasy";
     font-weight: bold;
-    box-shadow: 0px 0px 28px 3px #ededed
+    outline: none;
 }
 
 .weight {
@@ -338,10 +345,12 @@ p {
     border: none;
     width: 72px;
     height: 40px;
+    margin-left: 15px;
     text-align: center;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+    font-size: 20px;
+    font-family: "fantasy";
     font-weight: bold;
-    box-shadow: 0px 0px 28px 3px #ededed
+    outline: none;
 }
 
 .choice {

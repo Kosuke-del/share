@@ -753,8 +753,8 @@ img {
     justify-content: center;
     text-decoration: none;
     border-radius: 20px;
-    width: 150px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
     box-shadow: 0px 0px 28px 3px #ededed;
     transition: 1s;
     box-shadow: 0 0 3px var(--clr),
@@ -911,8 +911,8 @@ img {
     justify-content: center;
     text-decoration: none;
     border-radius: 20px;
-    width: 105px;
-    height: 55px;
+    width: 140px;
+    height: 70px;
     box-shadow: 0px 0px 28px 3px #ededed;
     transition: 1s;
     box-shadow: 0 0 3px var(--clr),
