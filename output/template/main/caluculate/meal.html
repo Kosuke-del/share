@@ -49,13 +49,13 @@
          </header>
          <!-- endヘッダー -->
          <!-- 食事検索カード -->
-         <section class="wrapper">
+         <section class="wrapper" style="display:none">
             <div class="back">
                     <a href="#" class=button style="--clr: #00ccff;--i:0;">
                         <span>Back</span>
                     </a>
             </div>
-            <div class="food-container" style="display:none">
+            <div class="food-container">
                 <div class="sentence">
                     <p class="question4">質問４：食べたものを入力して</p>
                 </div>
@@ -129,12 +129,7 @@
             </script>
             <script>
                 $(document).ready(function(){
-                  $(".food-container").fadeIn(3500);
-            });
-            </script>
-            <script>
-                $(document).ready(function(){
-                  $(".food-container").fadeIn(3500);
+                  $(".wrapper").fadeIn(3500);
             });
             </script>
         </body>

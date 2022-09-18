@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <title>冷凍食品</title>
-        <link rel="stylesheet" href="../../static/css/activeLevel.css">
+        <link rel="stylesheet" href="../../../static/css/activeLevel.css">
         <!-- <script src="../static/test.js" defer></script> -->
         <script src="https://code.jquery.com/jquery.min.js"></script>
     </head>
@@ -15,7 +15,7 @@
               <!-- ロゴエリア -->
               <div class="area_logo_header">
                 <a class="logo" href="#">
-                  <img src="../../static/img/logo/logo.svg">
+                  <img src="../../../static/img/logo/logo.svg">
                 </a>
                 <p class="copy">For your busy time...</p>
               </div>
@@ -50,8 +50,13 @@
          </header>
          <!-- endヘッダー -->
          <!-- 活動目的カード -->
-         <section class="wrapper">
-            <div class="food-container" style="display:none">
+         <section class="wrapper" style="display:none">
+            <div class="back">
+                <a href="#" class=button style="--clr: #00ccff;--i:0;">
+                    <span>Back</span>
+                </a>
+            </div>
+            <div class="food-container">
                 <div class="sentence">
                     <p class="question3">質問３：食事の目的を選んでください</p>
                 </div>
@@ -71,6 +76,11 @@
                     </div>
                 </div>
              </div>
+             <div class="next">
+                <a href="#" class=button style="--clr: #ff22bb;--i:0;">
+                    <span>Next</span>
+                </a>
+            </div>
            </section>
            <!-- end活動目的カード -->
            <script src="https://code.jquery.com/jquery.min.js"></script>
@@ -97,7 +107,7 @@
             </script>
             <script>
                 $(document).ready(function(){
-                  $(".food-container").fadeIn(3500);
+                  $(".wrapper").fadeIn(3500);
             });
             </script>
         </body>

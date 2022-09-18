@@ -134,6 +134,22 @@
 /* header終了 */
 
 /* カード内容についてのcss */
+/* backボタンについてのcss */
+.back {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -62px;
+    left: -150px;
+}
+/* nextボタンについてのcss */
+.next {
+    width: 20px;
+    height: 10px;
+    position: relative;
+    top: -62px;
+}
+
 .wrapper {
 	display: flex;
 	/* background-color: skyblue; */
@@ -192,7 +208,7 @@ p {
 }
 .column_Button {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 550px;
     margin-left: 22px;
@@ -532,7 +548,7 @@ img {
 	transition-duration: 0.7s;
 }
 .clickDecrease {
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #dda0dd;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px #292929;
 }
 
 .maintain {
@@ -553,7 +569,7 @@ img {
 	transition-duration: 0.7s;
 }
 .clickMaintain {
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #ff00ff;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px #292929;
 }
 
 .increase {
@@ -574,7 +590,7 @@ img {
 	transition-duration: 0.7s;
 }
 .clickIncrease {
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #8b008b;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px #292929;
 }
 .activePurpose {
     display: flex;

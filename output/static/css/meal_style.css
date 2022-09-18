@@ -653,7 +653,7 @@ img {
 	transition-duration: 0.7s;
 }
 .clickMeal1 {
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #C2DFFF;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px #292929;
 }
 
 .meal2 {
@@ -671,7 +671,7 @@ img {
 	transition-duration: 0.7s;
 }
 .clickMeal2 {
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #3BB9FF;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px #292929;
 }
 
 .meal3 {
@@ -689,7 +689,7 @@ img {
 	transition-duration: 0.7s;
 }
 .clickMeal3 {
-    box-shadow: 3.5px 3.5px 3.5px 3.5px #0020C2;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px #292929;
 }
 
 .mealType {
@@ -836,8 +836,6 @@ img {
 
 .button_clicked:hover::before {
     width: 120%;
-
-
 }
 
 .button_clicked::before {

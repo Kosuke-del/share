@@ -15,7 +15,7 @@
               <!-- ロゴエリア -->
               <div class="area_logo_header">
                 <a class="logo" href="#">
-                  <img src="../../static/img/logo/logo.svg">
+                  <img src="../../../static/img/logo/logo.svg">
                 </a>
                 <p class="copy">For your busy time...</p>
               </div>
@@ -50,8 +50,13 @@
          </header>
          <!-- endヘッダー -->
          <!-- 活動量カード -->
-         <section class="wrapper">
-            <div class="food-container" style="display:none">
+         <section class="wrapper" style="display:none">
+            <div class="back">
+                <a href="#" class=button style="--clr: #00ccff;--i:0;">
+                    <span>Back</span>
+                </a>
+            </div>
+            <div class="food-container">
                 <div class="sentence">
                     <p class="question2">質問２：日々の活動量を選んでください</p>
                 </div>
@@ -72,21 +77,16 @@
                 </div>
                 <div class="column_Button">
                     <div class="search_Button">
-                        <a href="#" class=button style="--clr: #00ccff;--i:0;">
-                            <span>Back</span>
-                        </a>
-                    </div>
-                    <div class="search_Button">
                         <a href="#" class=button style="--clr: #22e622;--i:0;">
                             <span>SEARCH</span>
                         </a>
                     </div>
-                    <div class="search_Button">
-                        <a href="#" class=button style="--clr: #ff22bb;--i:0;">
-                            <span>Next</span>
-                        </a>
-                    </div>
                 </div>
+            </div>
+            <div class="next">
+                <a href="#" class=button style="--clr: #ff22bb;--i:0;">
+                    <span>Next</span>
+                </a>
             </div>
            </section>
            <!-- end活動量カード -->
@@ -114,7 +114,7 @@
             </script>
             <script>
                 $(document).ready(function(){
-                  $(".food-container").fadeIn(3500);
+                  $(".wrapper").fadeIn(3500);
             });
             </script>
         </body>
