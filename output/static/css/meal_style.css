@@ -701,6 +701,7 @@ img {
 }
 
 .mealName {
+    width : 200px;
     margin-top: 5px;
     text-align: center;
     font-size: 25px;
