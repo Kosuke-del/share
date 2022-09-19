@@ -1,4 +1,9 @@
 /* loading containerの配置についてのcss */
+@charset "utf-8";
+
+html {
+    overflow: scroll;
+}
 
 body {
     display: flex;
